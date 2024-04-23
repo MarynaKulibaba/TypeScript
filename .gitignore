@@ -1,0 +1,19 @@
+# Ignore build output
+node_modules/
+dist/
+*.js
+*.js.map
+*.d.ts
+
+# Ignore TypeScript cache
+*.tsbuildinfo
+
+# Ignore editor/IDE specific files
+.vscode/
+.idea/
+
+# Ignore npm debug log
+npm-debug.log*
+
+# Ignore macOS/OS X specific files
+.DS_Store
