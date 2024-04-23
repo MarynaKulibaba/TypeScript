@@ -1,4 +1,5 @@
 # TypeScript
+**ДЗ 79. Основи TypeScript**
 
 1. Типи Даних: Створіть змінні для кожного з основних типів даних у TypeScript: string, number, boolean, null, undefined, object, any, void, never, та unknown. Додайте приклади використання.
 2. Інтерфейси: Створіть інтерфейс Person, який описує ім'я (string), вік (number) та хобі (масив stringів). Створіть об'єкт, який відповідає цьому інтерфейсу.
