@@ -21,6 +21,7 @@ printValue("This is an unknown value")
 function sayHi():void {
     console.log('Hi')
 }
+
 sayHi()
 
 // never це тип, який ніколи не приймає жодних значень.
@@ -49,6 +50,7 @@ const person: Person = {
     age: 36,
     hobbies: ['читання', 'біг', 'програмування'],
 };
+
 function introduceYourself(person: Person): void {
     console.log(`Привіт! Мене звати ${person.name}. Мені ${person.age} років.`);
     if (person.hobbies.length > 0) {
@@ -60,6 +62,7 @@ function introduceYourself(person: Person): void {
         console.log("У мене немає хобі :(");
     }
 }
+
 introduceYourself(person)
 console.log('');
 
@@ -86,5 +89,4 @@ enum WeekDay {
 }
 
 const currentDay: WeekDay = new Date().getDay() - 1;
-
 console.log(`Today is: ${WeekDay[currentDay]}`);
